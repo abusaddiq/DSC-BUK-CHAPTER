@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style-project.css" rel="stylesheet" type="text/css">
+    <title> Project-Dsc </title>
+    <style>
+         *, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: left;
+  width:  30%;
+  margin-bottom: 16px;
+  padding: 0 12px;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        hr.hor {
+    border: 10px solid rgb(7, 51, 68);
+    border-radius: 5px;
+  }
+    
+
+    </style>
+</head>
+
+<body>
+    <center><img src="image/1.jpg" alt="logo" width="100px"></center>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px"> Our Local Area Census </h1>
+            <p> the Developers </p>
+
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a class="active" href="developers.html"> CONTACT </a>
+        <a href="analysis.html"> ANALYSIS AREA </a>
+         
+    </div>
+    <hr class="hor">
+    <hr>
+    <br><br>
+    <hr>
+    <h2 style="text-align: center"> <b> our Developers </b> </h2>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image/abusadik.jpg" alt="abubakar" style="width:100%">
+            <div class="container">
+              <h2> Abubakar Ibrahim Abdullahi </h2>
+              <p class="title"> Software Engineer </p>
+              <p> <b> Member at Developer Student Club_(DSC) </b></p>
+              <p>07085817280</p>
+              <p>abusaddiq5581@gmail.com.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="image/mahmud3.png" alt="mahmud" style="width:100%">
+            <div class="container">
+              <h2>Mahmud Mahmud Hamza</h2>
+              <p class="title"> Software Engineer </p>
+              <p> <b>Member at Developer Student Club_(DSC)</b> </p>
+              <p>08142813851</p>
+              <p>mmahmudhamza@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="image/ibrahim.jpg" alt="ibrahim" style="width:100%">
+            <div class="container">
+              <h2>Ibrahim Musa Yahaya </h2>
+              <p class="title"> Software Engineer </p>
+              <p><b>Member at Developer Student Club_(DSC)</b></p>
+              <p>07060608944</p>
+              <p>ibrahimyahya@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image/musty.png" alt="abubakar" style="width:100%">
+            <div class="container">
+              <h2> Mustapha </h2>
+              <p class="title"> Information Technologist </p>
+              <p><b>Member at Developer Student Club_(DSC)</b></p>
+              <p> 07068843892 </p>
+              <p>musty@gmail.com.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="image/nura.png" alt="mahmud" style="width:100%">
+            <div class="container">
+              <h2> Nura Auwal </h2>
+              <p class="title">Software Engineer</p>
+              <p><b>Member at Developer Student Club_(DSC)</b></p>
+              <p> 07036404457 </p>
+              <p>nurauwal@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="image/abdul.png" alt="John" style="width:100%">
+            <div class="container">
+              <h2> Abdul-hakeem</h2>
+              <p class="title">Designer</p>
+              <p><b>Member at Developer Student Club_(DSC)</b></p>
+              <p> 08143885035 </p>
+              <p>abdul@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <hr>
+    <br><br>
+    <hr>
+    <footer>
+        <p> Copyright &copy; 2020, our local Area census </p>
+    </footer>
+
+</body>
+
+</html>
